@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "generator": "ts-node scripts/generator.ts"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,12 @@
   "homepage": "https://github.com/yemuguliunian/Frontend-Interview-Questions#readme",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.0",
+    "gray-matter": "^4.0.2",
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3",
+    "vtils": "^2.59.0",
     "vuepress": "^1.5.0"
   }
 }
