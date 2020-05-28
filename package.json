@@ -1,0 +1,26 @@
+{
+  "name": "frontend-interview-questions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yemuguliunian/Frontend-Interview-Questions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yemuguliunian/Frontend-Interview-Questions/issues"
+  },
+  "homepage": "https://github.com/yemuguliunian/Frontend-Interview-Questions#readme",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "vuepress": "^1.5.0"
+  }
+}
