@@ -24,7 +24,7 @@ module.exports = {
             {
                 title: 'JS基础',
                 collapsable: true,
-                children: [],
+                children: ['javaScript/编程题', 'javaScript/Q1'],
             },
             {
                 title: '异步',
@@ -55,11 +55,6 @@ module.exports = {
                         children: [],
                     },
                 ],
-            },
-            {
-                title: '编程题',
-                collapsable: true,
-                children: [],
             },
             {
                 title: '工程化',
