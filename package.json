@@ -1,31 +1,36 @@
 {
-  "name": "frontend-interview-questions",
+  "name": "frontend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "generator": "ts-node scripts/generator.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yemuguliunian/Frontend-Interview-Questions.git"
+    "url": "git+https://github.com/yemuguliunian/frontend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yemuguliunian/Frontend-Interview-Questions/issues"
+    "url": "https://github.com/yemuguliunian/frontend/issues"
   },
-  "homepage": "https://github.com/yemuguliunian/Frontend-Interview-Questions#readme",
+  "homepage": "https://github.com/yemuguliunian/frontend#readme",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.0",
+    "@yemu419/vuepress-plugin-interactive-js": "^0.0.2",
     "gray-matter": "^4.0.2",
     "nodemon": "^2.0.4",
     "prettier": "^2.0.5",
     "ts-node": "^8.10.1",
     "typescript": "^3.9.3",
     "vtils": "^2.59.0",
-    "vuepress": "^1.5.0"
+    "vuepress": "^1.5.0",
+    "watchpack": "1.6.1"
+  },
+  "resolutions": {
+    "watchpack": "1.6.1"
   }
 }

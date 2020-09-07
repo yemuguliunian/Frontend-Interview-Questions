@@ -1,15 +1,7 @@
-# 目录
-
--   async
--   browser
--   css
-    -   [如何实现不定高度水平垂直居中](/Frontend-Interview-Questions/css/如何实现不定高度水平垂直居中)
--   design
--   frame
-    -   React
-    -   Vue
--   html
--   javaScript
--   network
--   program
--   tool
+---
+home: true
+heroText: Frontend
+tagline: 前端个人笔记
+actionText: 开始 →
+actionLink: /knowledge/
+---
